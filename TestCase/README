@@ -1,0 +1,15 @@
+The solver is located in pimpleFoamPulsTempNew.
+
+It is designed to create a pulsating flow with a cosinusoidal pressure gradient, which will
+also solve scalar temperature transport
+
+The test case included is setup for the k-epsilon Launder-Sharma turbulence model with 
+mesh such that y+ <= 1 at all phases.
+
+The bottom wall is set to theta=1 and the top wall theta=0.
+
+The dpdx magnitude and frequency are assigned in constant/transportProperties.
+
+The viscosity is defined to be compared to a non-dimensional DNS simulation, as nu = 1/Re_tau
+
+

@@ -1,0 +1,3 @@
+pimpleFoamPuls.C
+
+EXE = $(FOAM_APPBIN)/pimpleFoamPuls

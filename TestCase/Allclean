@@ -1,0 +1,25 @@
+#!/bin/sh
+cd ${0%/*} || exit 1    # run from this directory
+
+# Source tutorial run functions
+#. $WM_PROJECT_DIR/bin/tools/CleanFunctions
+
+rm -r processor0
+rm -r processor1
+rm -r processor2
+rm -r processor3
+rm -r processor4
+rm -r processor5
+rm -r processor6
+rm -r processor7
+rm -r processor8
+rm -r processor9
+rm -r processor10
+rm -r processor11
+rm -r processor12
+rm -r processor13
+rm -r processor14
+rm -r processor15
+
+rm log.*
+# ----------------------------------------------------------------- end-of-file
